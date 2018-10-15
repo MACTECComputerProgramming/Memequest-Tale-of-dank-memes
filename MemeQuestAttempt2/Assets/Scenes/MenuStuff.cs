@@ -9,7 +9,7 @@ public class MenuStuff : MonoBehaviour {
     public void PlayGame()
     {
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene(1));
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
 
@@ -20,5 +20,15 @@ public class MenuStuff : MonoBehaviour {
 
     }
 
+    public void BackToTheMenu()
+    {
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+
+    }
 	
+    //make skript to cause blackness should the slider get changed
+
+
+
 }
