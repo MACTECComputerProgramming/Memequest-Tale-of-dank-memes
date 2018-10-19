@@ -25,10 +25,10 @@ public class LevelManager : MonoBehaviour {
 	//builds the actual areas that the characters battle in.
 	private void createLevel(){
 
-		Vector3 worldStart = Camera.main.ScreenToWorldPoint (new Vector3 (5, Screen.height));
+		Vector3 worldStart = Camera.main.ScreenToWorldPoint (new Vector3 (0,80 ));
 
-		for (int y = 0; y < 5; y++) {
-			for (int x = 0; x < 5; x++) {
+		for (int y = 0; y < 3; y++) {
+			for (int x = 0; x < 13; x++) {
 				placeTile (x, y, worldStart);
 
 			}
