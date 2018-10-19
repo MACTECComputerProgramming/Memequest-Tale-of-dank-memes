@@ -7,8 +7,9 @@ public class NoBreakMusicPLS : MonoBehaviour {
     public void MusicNoBreakJutsu()
     {
         GameObject[] objs = GameObject.FindGameObjectsWithTag("music");
-        if (objs.Length > 1)
+        if (objs.Length < 1)
             Destroy(this.gameObject);
         DontDestroyOnLoad(this.gameObject);
+
     }
 }

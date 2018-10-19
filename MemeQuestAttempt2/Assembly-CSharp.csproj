@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scenes\CombatStuff\EventHandler.cs" />
+     <Compile Include="Assets\Scenes\CombatStuff\HealthSystem.cs" />
      <Compile Include="Assets\Scenes\MenuStuff\MenuStuff.cs" />
      <Compile Include="Assets\Scenes\MenuStuff\NoBreakMusicPLS.cs" />
      <Compile Include="Assets\Scenes\MenuStuff\optionMenu.cs" />
