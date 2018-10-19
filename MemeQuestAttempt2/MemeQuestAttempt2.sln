@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{F17C8B3C-0C23-767F-CDF2-534330F04213}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeQuestAttempt2", "Assembly-CSharp.csproj", "{F17C8B3C-0C23-767F-CDF2-534330F04213}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
