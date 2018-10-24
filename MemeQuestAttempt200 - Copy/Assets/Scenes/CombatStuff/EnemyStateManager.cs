@@ -29,7 +29,7 @@ public class EnemyStateManager : MonoBehaviour {
 	void Update () {
         Debug.Log(state);
 
-        switch (State)
+        switch (state)
         {
             case (TurnState.Enemy_Turn):
 

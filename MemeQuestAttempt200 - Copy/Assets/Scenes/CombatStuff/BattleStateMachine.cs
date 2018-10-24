@@ -10,7 +10,7 @@ public class BattleStateMachine : MonoBehaviour {
         Takeaction,
         Action
     }
-    public performAction fighting;
+    public PerformAction fighting;
 
 
 
@@ -23,7 +23,7 @@ public class BattleStateMachine : MonoBehaviour {
 	// Update is called once per frame
 	void Update () { 
         
-        Debug.Log(state);
+        Debug.Log(fighting);
 	switch(fighting)
     {
        

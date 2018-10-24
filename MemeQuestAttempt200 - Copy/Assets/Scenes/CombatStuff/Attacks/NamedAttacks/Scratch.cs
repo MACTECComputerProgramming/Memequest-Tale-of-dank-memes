@@ -6,7 +6,7 @@ public class Scratch : baseAttack {
 
     public Scratch()
     {
-        attacknName = "Scratch";
+        attackName = "Scratch";
         attackDesc = "no desc";
         attackDam = 50f;
         attackCost = 5;

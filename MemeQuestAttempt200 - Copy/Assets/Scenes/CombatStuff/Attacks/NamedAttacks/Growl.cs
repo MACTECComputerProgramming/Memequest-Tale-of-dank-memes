@@ -6,7 +6,7 @@ public class Growl : baseAttack {
 
 	public Growl()
     {
-        attacknName = "Growl";
+        attackName = "Growl";
         attackDesc = "no desc";
         attackDam = 10f;
         attackCost = 0;

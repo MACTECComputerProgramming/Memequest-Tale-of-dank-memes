@@ -27,7 +27,7 @@ public class PlayerStateManger : MonoBehaviour {
 	void Update () {
         Debug.Log(state);
 
-        switch (State)
+        switch (state)
         {
             case (TurnState.Enemy_Turn):
 
