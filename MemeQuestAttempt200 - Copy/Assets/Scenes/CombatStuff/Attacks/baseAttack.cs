@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 [System.Serializable]
-public class baseAttack : MonoBehavior
+public class baseAttack : MonoBehaviour
 {
 
     public string attackName;
