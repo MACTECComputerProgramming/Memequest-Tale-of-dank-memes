@@ -528,6 +528,9 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: d8fbffff000000006c0c0000740c00009c0c0000ba0c0000dc0c0000380d0000
+<<<<<<< HEAD
+>>>>>>> 3a9383ce3598270663607ee9a854a79c2507aafa
+=======
 >>>>>>> 3a9383ce3598270663607ee9a854a79c2507aafa
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -632,9 +635,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 022d0000
     m_LastClickedID: 11522
     m_ExpandedIDs: 00000000bc2a0000802b00009e2b0000ce2b0000022d0000
+=======
+    m_SelectedIDs: 040a0000
+    m_LastClickedID: 2564
+    m_ExpandedIDs: 0000000072090000360a0000540a0000840a0000ba0b000000ca9a3b
+>>>>>>> 3a9383ce3598270663607ee9a854a79c2507aafa
 =======
     m_SelectedIDs: 040a0000
     m_LastClickedID: 2564
@@ -668,7 +677,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000bc2a0000802b00009e2b0000ce2b0000022d0000
+=======
+    m_ExpandedIDs: 0000000072090000360a0000540a0000840a0000ba0b0000
+>>>>>>> 3a9383ce3598270663607ee9a854a79c2507aafa
 =======
     m_ExpandedIDs: 0000000072090000360a0000540a0000840a0000ba0b0000
 >>>>>>> 3a9383ce3598270663607ee9a854a79c2507aafa
