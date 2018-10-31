@@ -68,16 +68,16 @@
      <Compile Include="Assets\Scenes\MenuStuff\optionMenu.cs" />
      <Compile Include="Assets\Scenes\Scripts\LevelManager.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/CS180/Documents/GitHub/Memequest-Tale-of-dank-memes/MemeQuestAttempt200 - Copy/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/CS180/Documents/DBB plz no touch/Meme quest/Memequest-Tale-of-dank-memes/MemeQuestAttempt200 - Copy/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/CS180/Documents/GitHub/Memequest-Tale-of-dank-memes/MemeQuestAttempt200 - Copy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/CS180/Documents/DBB plz no touch/Meme quest/Memequest-Tale-of-dank-memes/MemeQuestAttempt200 - Copy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/CS180/Documents/GitHub/Memequest-Tale-of-dank-memes/MemeQuestAttempt200 - Copy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/CS180/Documents/DBB plz no touch/Meme quest/Memequest-Tale-of-dank-memes/MemeQuestAttempt200 - Copy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/CS180/Documents/GitHub/Memequest-Tale-of-dank-memes/MemeQuestAttempt200 - Copy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/CS180/Documents/DBB plz no touch/Meme quest/Memequest-Tale-of-dank-memes/MemeQuestAttempt200 - Copy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
