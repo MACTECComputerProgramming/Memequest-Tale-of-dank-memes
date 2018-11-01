@@ -10,7 +10,7 @@ public class LevelManager : MonoBehaviour {
 	[SerializeField]
 	private Enemy[] enemy = new Enemy[3];
 
-	private int difficulty = 9000;
+	private int difficulty = 50;
 
 	public float TileSize{
 		get{ return tile.GetComponent<SpriteRenderer> ().sprite.bounds.size.x;}

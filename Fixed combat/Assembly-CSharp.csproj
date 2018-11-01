@@ -57,10 +57,8 @@
      <Compile Include="Assets\Scenes\MenuStuff\NoBreakMusicPLS.cs" />
      <Compile Include="Assets\Scenes\Scripts\Attacks\baseAttack.cs" />
      <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\Growl.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\paunch.cs" />
      <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\Scratch.cs" />
-     <Compile Include="Assets\Scenes\Scripts\Attacks\Sanic Attacks\Paunch.cs" />
-     <Compile Include="Assets\Scenes\Scripts\Attacks\Sanic Attacks\Raulling.cs" />
-     <Compile Include="Assets\Scenes\Scripts\Attacks\Sanic Attacks\Supa Faust.cs" />
      <Compile Include="Assets\Scenes\Scripts\BG_Music.cs" />
      <Compile Include="Assets\Scenes\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scenes\Scripts\enemyScripts\baseEnemy.cs" />
@@ -72,16 +70,16 @@
      <Compile Include="Assets\Scenes\Scripts\systems\handleTurn.cs" />
      <Compile Include="Assets\Scenes\Scripts\systems\HealthSystem.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/CS180/Documents/GitHub/Memequest-Tale-of-dank-memes/Fixed combat/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/CS180/Documents/DBB plz no touch/Meme quest/Memequest-Tale-of-dank-memes/Fixed combat/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/CS180/Documents/GitHub/Memequest-Tale-of-dank-memes/Fixed combat/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/CS180/Documents/DBB plz no touch/Meme quest/Memequest-Tale-of-dank-memes/Fixed combat/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/CS180/Documents/GitHub/Memequest-Tale-of-dank-memes/Fixed combat/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/CS180/Documents/DBB plz no touch/Meme quest/Memequest-Tale-of-dank-memes/Fixed combat/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/CS180/Documents/GitHub/Memequest-Tale-of-dank-memes/Fixed combat/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/CS180/Documents/DBB plz no touch/Meme quest/Memequest-Tale-of-dank-memes/Fixed combat/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
