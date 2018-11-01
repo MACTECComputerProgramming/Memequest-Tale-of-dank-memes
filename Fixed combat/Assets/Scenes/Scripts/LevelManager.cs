@@ -28,7 +28,7 @@ public class LevelManager : MonoBehaviour {
 	//builds the actual areas that the characters battle in.
 	private void createLevel(){
 
-		Vector3 worldStart = Camera.main.ScreenToWorldPoint (new Vector3 (0,130 ));
+		Vector3 worldStart = Camera.main.ScreenToWorldPoint (new Vector3 (0,130, -5 ));
 
 		for (int y = 0; y < 3; y++) {
 			for (int x = 0; x < 11; x++) {
@@ -42,7 +42,7 @@ public class LevelManager : MonoBehaviour {
 	private void placeTile(int x, int y, Vector3 worldStart){
 		GameObject newTile = Instantiate (tile);
 
-		newTile.transform.position = new Vector3 (worldStart.x + (TileSize * x),worldStart.y + (TileSize * y), 0);
+		newTile.transform.position = new Vector3 (worldStart.x + (TileSize * x),worldStart.y + (TileSize * y), -5);
 	
 		if (difficulty >= 0) {
 			if (x > 6) {

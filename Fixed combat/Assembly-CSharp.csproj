@@ -58,7 +58,9 @@
      <Compile Include="Assets\Scenes\Scripts\Attacks\baseAttack.cs" />
      <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\Growl.cs" />
      <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\paunch.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\rauling.cs" />
      <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\Scratch.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\supa faust.cs" />
      <Compile Include="Assets\Scenes\Scripts\BG_Music.cs" />
      <Compile Include="Assets\Scenes\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scenes\Scripts\enemyScripts\baseEnemy.cs" />
