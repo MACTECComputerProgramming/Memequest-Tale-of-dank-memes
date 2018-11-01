@@ -2,23 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class supafaust : baseAttack {
+public class SupaFaust : baseAttack {
 
-	public supafaust()
-	{
-		attackName = "supa faust";
-		attackDesc = "takes a turn for every enemy on the board";
-		attackDam = 35f;
-		attackCost = 0;
+	public SupaFaust()
+    {
+        attackName = "Supa Faust";
+        attackDesc = "Takes actions as many times as their are enemies";
+        attackDam = 0f;
+        attackCost = 100;
+               
 
-
-	}
-
-	void Update()
-	{
-		// GetComponent {basePlayer baseHp;}
-
-
-	}
-
+    }
 }
