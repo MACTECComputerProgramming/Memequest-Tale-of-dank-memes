@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B4638E2E-7DBA-5878-9C71-2DE51AD3A3A7}</ProjectGuid>
+    <ProjectGuid>{3124121C-F874-88D8-D5DA-72B4655CB155}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,25 +53,38 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scenes\CombatStuff\EventHandler.cs" />
-     <Compile Include="Assets\Scenes\CombatStuff\HealthSystem.cs" />
      <Compile Include="Assets\Scenes\MenuStuff\MenuStuff.cs" />
      <Compile Include="Assets\Scenes\MenuStuff\NoBreakMusicPLS.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\baseAttack.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\Growl.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\Paunch.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\Raulling.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\Scratch.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\supa faust.cs" />
      <Compile Include="Assets\Scenes\Scripts\BG_Music.cs" />
      <Compile Include="Assets\Scenes\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scenes\Scripts\enemyScripts\baseEnemy.cs" />
+     <Compile Include="Assets\Scenes\Scripts\enemyScripts\EnemyStateManager.cs" />
+     <Compile Include="Assets\Scenes\Scripts\HomeBrewStuff\stuffDie.cs" />
      <Compile Include="Assets\Scenes\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Player\basePlayer.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Player\PlayerStateManger.cs" />
      <Compile Include="Assets\Scenes\Scripts\StatusIndicator.cs" />
+     <Compile Include="Assets\Scenes\Scripts\systems\BattleStateMachine.cs" />
+     <Compile Include="Assets\Scenes\Scripts\systems\EventHandler.cs" />
+     <Compile Include="Assets\Scenes\Scripts\systems\handleTurn.cs" />
+     <Compile Include="Assets\Scenes\Scripts\systems\HealthSystem.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/CS180/Desktop/Memequest beta versions/MemeQuestAttempt2_2.0 - Copy/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/CS180/Documents/DBB plz no touch/Meme quest/Memequest-Tale-of-dank-memes/Fixed combat/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/CS180/Desktop/Memequest beta versions/MemeQuestAttempt2_2.0 - Copy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/CS180/Documents/DBB plz no touch/Meme quest/Memequest-Tale-of-dank-memes/Fixed combat/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/CS180/Desktop/Memequest beta versions/MemeQuestAttempt2_2.0 - Copy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/CS180/Documents/DBB plz no touch/Meme quest/Memequest-Tale-of-dank-memes/Fixed combat/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/CS180/Desktop/Memequest beta versions/MemeQuestAttempt2_2.0 - Copy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/CS180/Documents/DBB plz no touch/Meme quest/Memequest-Tale-of-dank-memes/Fixed combat/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -7,7 +7,7 @@ public class Paunch : baseAttack {
     public Paunch()
     {
         attackName = "Paunch";
-        attackDesc = "no desc";
+        attackDesc = "gives them a nice shiner right on the eye";
         attackDam = 10f;
         attackCost = 0;
 
