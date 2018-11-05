@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour {
+	public int i = 0;
 
 	[SerializeField]
 	private GameObject tile;
@@ -60,8 +61,12 @@ public class LevelManager : MonoBehaviour {
 
 		int count = e.getDiff ();
 
+		e.name = "enemy" + i;
+
 		difficulty -= count;
 		e.transform.position = new Vector3 (t.transform.position.x, t.transform.position.y, 0);
+
+		i += 1;
 	}
 
 	public static void KillEnemy(Enemy enemy){

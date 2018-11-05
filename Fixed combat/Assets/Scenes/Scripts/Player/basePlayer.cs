@@ -2,22 +2,51 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public class basePlayer : MonoBehaviour {
+[SerializeField]
+private StatusIndicator statusIndicator;
 [System.Serializable]
+public class Stats
+{
 
-public class basePlayer  {
+	private int _curHealth;
+	public  int maxhealth = 100;
 
 
-    public string name;
 
-    public float baseHp;
-    public float curHp;
+	public int curHealth{
+		get{ return _curHealth;}
+		set{ _curHealth = Mathf.Clamp(value, 0, maxhealth);}
+	}
 
-    public float  baseMp;
-    public float curMp;
 
-    public int stam;
-    public int intel;
-    public int dex;
-    public int agi;
-	
+
+
+
+	public void Init(){
+		curHealth = maxhealth;
+	}
 }
+
+public Stats stats = new Stats();
+void Start(){
+	stats.Init ();
+
+	if (statusIndicator != null) {
+		statusIndicator.SetHealth (stats.curHealth, stats.maxhealth );
+	}
+}
+	public void DamagePlayer (int damage){
+		stats.curHealth -= damage;
+		if (stats.curHealth <= 0) {
+			
+		}
+		if (statusIndicator != null) {
+			statusIndicator.SetHealth (stats.curHealth, stats.maxhealth);
+		}
+
+	}
+
+
+}
+

@@ -55,12 +55,18 @@
   <ItemGroup>
      <Compile Include="Assets\Scenes\MenuStuff\MenuStuff.cs" />
      <Compile Include="Assets\Scenes\MenuStuff\NoBreakMusicPLS.cs" />
+     <Compile Include="Assets\Scenes\MenuStuff\optionMenu.cs" />
      <Compile Include="Assets\Scenes\Scripts\Attacks\baseAttack.cs" />
      <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\Growl.cs" />
      <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\Paunch.cs" />
      <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\Raulling.cs" />
      <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\Scratch.cs" />
      <Compile Include="Assets\Scenes\Scripts\Attacks\NamedAttacks\supa faust.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\Sonic Attacks\artillery.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\Sonic Attacks\gottaGoFast.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\Sonic Attacks\speedyPunch.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\SpiderManAttacks\spiderWeb.cs" />
+     <Compile Include="Assets\Scenes\Scripts\Attacks\SpiderManAttacks\swingingKick.cs" />
      <Compile Include="Assets\Scenes\Scripts\BG_Music.cs" />
      <Compile Include="Assets\Scenes\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scenes\Scripts\enemyScripts\baseEnemy.cs" />

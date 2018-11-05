@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SupaFaust : baseAttack {
+public class Supafaust : baseAttack {
 
-	public SupaFaust()
+	public Supafaust()
 	{
 		attackName = "Supa Faust";
 		attackDesc = "Attacks as many times as there are enemys";
