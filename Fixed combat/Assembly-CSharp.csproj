@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scenes\Scripts\enemyScripts\EnemyStateManager.cs" />
      <Compile Include="Assets\Scenes\Scripts\HomeBrewStuff\stuffDie.cs" />
      <Compile Include="Assets\Scenes\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Scenes\Scripts\LevelManager1.cs" />
      <Compile Include="Assets\Scenes\Scripts\Player\basePlayer.cs" />
      <Compile Include="Assets\Scenes\Scripts\Player\PlayerStateManger.cs" />
      <Compile Include="Assets\Scenes\Scripts\StatusIndicator.cs" />

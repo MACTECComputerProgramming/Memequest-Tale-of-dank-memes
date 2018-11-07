@@ -6,12 +6,11 @@ using UnityEngine.SceneManagement;
 public class MenuStuff : MonoBehaviour {
 
 
-    public void PlayGame()
-    {
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
-    }
+	public void PlayGame()
+	{
+    SceneManager.LoadScene("Test_CambatScreen");
+	}
+    
 
     public void Quit()
     {
@@ -26,6 +25,11 @@ public class MenuStuff : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 
     }
+
+	public void Restart()
+	{
+		SceneManager.LoadScene ("Menu 1");
+	}
 	
     //make skript to cause blackness should the slider get changed
 

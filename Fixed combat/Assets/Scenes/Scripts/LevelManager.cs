@@ -5,6 +5,11 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour {
 	public int i = 0;
 
+	public List<Enemy> E = new List<Enemy> ();
+	bool heroTurn = true;
+
+
+
 	[SerializeField]
 	private GameObject tile;
 
@@ -37,6 +42,8 @@ public class LevelManager : MonoBehaviour {
 
 			}
 		}
+
+		enemyTurn (false);
 	}
 
 	//places the tiles in the needed position
@@ -67,6 +74,16 @@ public class LevelManager : MonoBehaviour {
 		e.transform.position = new Vector3 (t.transform.position.x, t.transform.position.y, 0);
 
 		i += 1;
+	}
+
+	public void enemyTurn(bool turn){
+		heroTurn = turn;
+
+		if (heroTurn == false) {
+			foreach(Enemy ee in E){
+				Debug.Log (ee.name);
+			}
+		}
 	}
 
 	public static void KillEnemy(Enemy enemy){
