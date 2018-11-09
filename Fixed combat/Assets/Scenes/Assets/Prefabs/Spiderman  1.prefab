@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 4000649588563302}
   - component: {fileID: 212947663825022328}
   - component: {fileID: 114199238826400304}
+  - component: {fileID: 95684385471916488}
   m_Layer: 0
   m_Name: Spiderman  1
   m_TagString: Untagged
@@ -95,6 +96,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &95684385471916488
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1688155698212926}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5da574f290e46f943862096ae42cb23e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114199238826400304
 MonoBehaviour:
   m_ObjectHideFlags: 1
